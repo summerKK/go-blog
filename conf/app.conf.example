@@ -1,0 +1,15 @@
+appname = go-blog
+httpport = 8080
+runmode = dev
+
+site.name = Summer
+
+#数据库配置
+[db]
+host = 127.0.0.1
+user = root
+password = 177678012
+port = 3306
+name = ppgo-admin
+prefix = PP_
+timezone = Asia/Shanghai

@@ -10,5 +10,5 @@ type BaseController struct {
 
 //初始化
 func (b *BaseController) Prepare() {
-	
+	b.Data["siteName"] = beego.AppConfig.String("site.name")
 }

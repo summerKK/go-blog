@@ -14,3 +14,5 @@
 *.out
 
 /conf/app.conf
+
+.idea

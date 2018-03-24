@@ -2,8 +2,1073 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27b35220-aadc-4192-b638-bdfbe3708082" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/conf/app.conf.example" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/controllers/Home.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/controllers/login.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/api.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/apidoc.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/app.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/index.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/login.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/message.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/nprogress.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/BUGS.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/CHANGE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/Gulpfile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/css/editormd.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/css/editormd.logo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/css/editormd.logo.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/css/editormd.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/css/editormd.preview.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/css/editormd.preview.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/editormd.js.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-Bold-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-Bold-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-Bold-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-BoldItalic-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-BoldItalic-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-BoldItalic-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-Italic-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-Italic-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-Italic-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-Light-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-Light-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-Light-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-LightItalic-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-LightItalic-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-LightItalic-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-Regular-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-Regular-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/fonts/OpenSans-Regular-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/scripts/linenumber.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/scripts/prettify/Apache-License-2.0.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/scripts/prettify/lang-css.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/scripts/prettify/prettify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/styles/jsdoc-default.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/styles/prettify-jsdoc.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/docs/styles/prettify-tomorrow.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/editormd.amd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/editormd.amd.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/editormd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/editormd.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/@links.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/auto-height.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/change-mode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/code-fold.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/custom-keyboard-shortcuts.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/custom-toolbar.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/define-plugin.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/delay-renderer-preview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/dynamic-create-editormd.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/emoji.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/extends.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/external-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/flowchart.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/form-get-value.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/full.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/goto-line.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/html-preview-markdown-to-html-custom-toc-container.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/html-preview-markdown-to-html.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/html-tags-decode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/image-cross-domain-upload.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/image-upload.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/images/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/images/7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/images/8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/images/editormd-screenshot.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/js/require.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/js/sea.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/js/seajs-main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/js/zepto.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/katex.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/manually-load-modules.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/multi-editormd.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/multi-languages.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/on-off.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/onchange.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/onfullscreen.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/onload.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/onpreviewing-onpreviewed.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/onresize.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/onscroll-onpreviewscroll.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/onwatch-onunwatch.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/page-break.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/php/cross-domain-upload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/php/editormd.uploader.class.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/php/post.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/php/upload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/php/upload_callback.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/readonly.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/resettings.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/search-replace.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/sequence-diagram.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/set-get-replace-selection.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/simple.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/sync-scrolling.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/task-lists.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/test.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/themes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/toc.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/toolbar-auto-fixed.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/use-requirejs.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/use-seajs.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/examples/use-zepto.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/fonts/editormd-logo.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/fonts/editormd-logo.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/fonts/editormd-logo.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/fonts/editormd-logo.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/loading@2x.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/loading@3x.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-favicon-16x16.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-favicon-24x24.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-favicon-32x32.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-favicon-48x48.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-favicon-64x64.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-logo-114x114.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-logo-120x120.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-logo-144x144.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-logo-16x16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-logo-180x180.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-logo-240x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-logo-24x24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-logo-320x320.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-logo-32x32.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-logo-48x48.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-logo-57x57.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-logo-64x64.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-logo-72x72.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/editormd-logo-96x96.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/images/logos/vi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/languages/en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/languages/zh-tw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/AUTHORS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/comment/comment.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/comment/continuecomment.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/dialog/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/dialog/dialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/display/fullscreen.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/display/fullscreen.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/display/panel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/display/placeholder.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/display/rulers.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/edit/closebrackets.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/edit/closetag.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/edit/continuelist.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/edit/matchbrackets.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/edit/matchtags.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/edit/trailingspace.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/fold/brace-fold.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/fold/comment-fold.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/fold/foldcode.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/fold/foldgutter.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/fold/foldgutter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/fold/indent-fold.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/fold/markdown-fold.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/fold/xml-fold.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/hint/anyword-hint.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/hint/css-hint.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/hint/html-hint.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/hint/javascript-hint.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/hint/show-hint.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/hint/show-hint.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/hint/sql-hint.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/hint/xml-hint.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/lint/coffeescript-lint.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/lint/css-lint.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/lint/javascript-lint.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/lint/json-lint.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/lint/lint.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/lint/lint.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/lint/yaml-lint.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/merge/merge.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/merge/merge.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/mode/loadmode.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/mode/multiplex.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/mode/multiplex_test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/mode/overlay.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/mode/simple.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/runmode/colorize.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/runmode/runmode-standalone.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/runmode/runmode.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/runmode/runmode.node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/scroll/annotatescrollbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/scroll/scrollpastend.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/scroll/simplescrollbars.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/scroll/simplescrollbars.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/search/match-highlighter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/search/matchesonscrollbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/search/matchesonscrollbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/search/search.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/search/searchcursor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/selection/active-line.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/selection/mark-selection.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/selection/selection-pointer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/tern/tern.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/tern/tern.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/tern/worker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addon/wrap/hardwrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/addons.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/codemirror.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/codemirror.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/lib/codemirror.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/lib/codemirror.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/apl/apl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/apl/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/asterisk/asterisk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/asterisk/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/clike/clike.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/clike/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/clike/scala.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/clojure/clojure.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/clojure/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/cobol/cobol.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/cobol/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/coffeescript/coffeescript.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/coffeescript/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/commonlisp/commonlisp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/commonlisp/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/css/css.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/css/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/css/less.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/css/less_test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/css/scss.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/css/scss_test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/css/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/cypher/cypher.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/cypher/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/d/d.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/d/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/dart/dart.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/dart/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/diff/diff.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/diff/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/django/django.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/django/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/dockerfile/dockerfile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/dockerfile/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/dtd/dtd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/dtd/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/dylan/dylan.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/dylan/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/ebnf/ebnf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/ebnf/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/ecl/ecl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/ecl/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/eiffel/eiffel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/eiffel/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/erlang/erlang.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/erlang/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/forth/forth.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/forth/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/fortran/fortran.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/fortran/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/gas/gas.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/gas/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/gfm/gfm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/gfm/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/gfm/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/gherkin/gherkin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/gherkin/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/go/go.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/go/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/groovy/groovy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/groovy/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/haml/haml.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/haml/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/haml/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/haskell/haskell.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/haskell/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/haxe/haxe.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/haxe/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/htmlembedded/htmlembedded.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/htmlembedded/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/htmlmixed/htmlmixed.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/htmlmixed/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/http/http.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/http/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/idl/idl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/idl/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/jade/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/jade/jade.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/javascript/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/javascript/javascript.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/javascript/json-ld.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/javascript/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/javascript/typescript.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/jinja2/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/jinja2/jinja2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/julia/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/julia/julia.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/kotlin/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/kotlin/kotlin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/livescript/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/livescript/livescript.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/lua/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/lua/lua.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/markdown/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/markdown/markdown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/markdown/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/meta.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/mirc/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/mirc/mirc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/mllike/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/mllike/mllike.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/modelica/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/modelica/modelica.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/nginx/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/nginx/nginx.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/ntriples/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/ntriples/ntriples.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/octave/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/octave/octave.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/pascal/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/pascal/pascal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/pegjs/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/pegjs/pegjs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/perl/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/perl/perl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/php/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/php/php.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/php/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/pig/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/pig/pig.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/properties/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/properties/properties.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/puppet/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/puppet/puppet.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/python/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/python/python.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/q/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/q/q.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/r/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/r/r.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/rpm/changes/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/rpm/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/rpm/rpm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/rst/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/rst/rst.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/ruby/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/ruby/ruby.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/ruby/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/rust/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/rust/rust.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/sass/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/sass/sass.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/scheme/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/scheme/scheme.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/shell/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/shell/shell.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/shell/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/sieve/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/sieve/sieve.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/slim/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/slim/slim.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/slim/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/smalltalk/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/smalltalk/smalltalk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/smarty/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/smarty/smarty.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/smartymixed/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/smartymixed/smartymixed.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/solr/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/solr/solr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/soy/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/soy/soy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/sparql/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/sparql/sparql.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/spreadsheet/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/spreadsheet/spreadsheet.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/sql/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/sql/sql.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/stex/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/stex/stex.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/stex/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/stylus/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/stylus/stylus.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/tcl/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/tcl/tcl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/textile/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/textile/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/textile/textile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/tiddlywiki/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/tiddlywiki/tiddlywiki.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/tiddlywiki/tiddlywiki.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/tiki/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/tiki/tiki.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/tiki/tiki.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/toml/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/toml/toml.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/tornado/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/tornado/tornado.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/turtle/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/turtle/turtle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/vb/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/vb/vb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/vbscript/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/vbscript/vbscript.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/velocity/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/velocity/velocity.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/verilog/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/verilog/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/verilog/verilog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/xml/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/xml/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/xml/xml.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/xquery/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/xquery/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/xquery/xquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/yaml/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/yaml/yaml.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/z80/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/mode/z80/z80.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/modes.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/3024-day.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/3024-night.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/ambiance-mobile.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/ambiance.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/base16-dark.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/base16-light.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/blackboard.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/cobalt.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/colorforth.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/eclipse.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/elegant.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/erlang-dark.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/lesser-dark.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/mbo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/mdn-like.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/midnight.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/monokai.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/neat.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/neo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/night.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/paraiso-dark.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/paraiso-light.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/pastel-on-dark.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/rubyblue.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/solarized.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/the-matrix.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/tomorrow-night-bright.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/tomorrow-night-eighties.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/twilight.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/vibrant-ink.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/xq-dark.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/xq-light.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/codemirror/theme/zenburn.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/flowchart.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/jquery.flowchart.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/marked.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/prettify.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/raphael.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/sequence-diagram.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/lib/underscore.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/plugins/code-block-dialog/code-block-dialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/plugins/emoji-dialog/emoji-dialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/plugins/emoji-dialog/emoji.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/plugins/goto-line-dialog/goto-line-dialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/plugins/help-dialog/help-dialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/plugins/help-dialog/help.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/plugins/html-entities-dialog/html-entities-dialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/plugins/html-entities-dialog/html-entities.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/plugins/image-dialog/image-dialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/plugins/link-dialog/link-dialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/plugins/plugin-template.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/plugins/preformatted-text-dialog/preformatted-text-dialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/plugins/reference-link-dialog/reference-link-dialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/plugins/table-dialog/table-dialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/plugins/test-plugin/test-plugin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/scss/editormd.codemirror.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/scss/editormd.dialog.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/scss/editormd.form.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/scss/editormd.grid.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/scss/editormd.logo.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/scss/editormd.menu.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/scss/editormd.preview.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/scss/editormd.preview.themes.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/scss/editormd.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/scss/editormd.tab.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/scss/editormd.themes.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/scss/font-awesome.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/scss/github-markdown.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/scss/lib/prefixes.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/scss/lib/variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/scss/prettify.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/src/editormd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/tests/bootstrap-test.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/tests/codemirror-searchbox-test.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/tests/codemirror-test.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/tests/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/tests/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/tests/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/tests/js/searchbox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/tests/katex-tests.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/tests/marked-@at-test.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/tests/marked-emoji-test.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/tests/marked-heading-link-test.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/tests/marked-todo-list-test.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/tests/qunit/qunit-1.16.0.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/editor.md/tests/qunit/qunit-1.16.0.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/demoImage/add_api.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/demoImage/admin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/demoImage/admin_add.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/demoImage/api.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/demoImage/api_list.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/demoImage/auth.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/demoImage/index.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/demoImage/login.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/demoImage/role.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/demoImage/role_add.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/login-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/logo_white.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/userface.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/loader.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/markdown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/message.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/navbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/nprogress.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/onelevel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tab.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/layui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/layui.mobile.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/modules/code.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/modules/laydate/default/laydate.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/modules/layer/default/icon-ext.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/modules/layer/default/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/modules/layer/default/layer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/modules/layer/default/loading-0.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/modules/layer/default/loading-1.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/css/modules/layer/default/loading-2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/font/iconfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/font/iconfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/font/iconfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/font/iconfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/0.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/1.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/10.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/11.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/12.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/13.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/14.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/15.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/16.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/17.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/18.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/19.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/20.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/21.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/22.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/23.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/24.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/25.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/26.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/27.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/28.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/29.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/3.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/30.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/31.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/32.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/33.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/34.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/35.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/36.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/37.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/38.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/39.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/4.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/40.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/41.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/42.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/43.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/44.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/45.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/46.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/47.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/48.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/49.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/5.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/50.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/51.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/52.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/53.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/54.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/55.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/56.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/57.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/58.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/59.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/6.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/60.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/61.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/62.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/63.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/64.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/65.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/66.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/67.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/68.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/69.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/7.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/70.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/71.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/8.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/images/face/9.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/carousel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/code.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/element.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/flow.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/laydate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/layedit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/layer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/laypage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/laytpl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/mobile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/table.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/tree.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/upload.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/lay/modules/util.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui.all.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layui/layui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/user.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/API_cn.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/API_en.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/api.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/common.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/common_ie6.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/img/apiMenu.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/img/apiMenu.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/img/background.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/img/chinese.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/img/close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/img/contact-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/img/english.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/img/header-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/img/lightbulb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/img/overlay_arrow.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/img/overlay_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/img/overlay_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/img/overlay_close_IE6.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/img/zTreeStandard.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/img/zTreeStandard.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/jquery-1.6.2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/jquery.ztree.core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/apiCss/zTreeStyleForApi.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/fn.zTree._z.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/fn.zTree.destroy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/fn.zTree.getZTreeObj.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/fn.zTree.init.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.async.autoParam.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.async.contentType.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.async.dataFilter.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.async.dataType.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.async.enable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.async.otherParam.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.async.type.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.async.url.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.beforeAsync.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.beforeCheck.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.beforeClick.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.beforeCollapse.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.beforeDblClick.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.beforeDrag.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.beforeDragOpen.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.beforeDrop.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.beforeEditName.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.beforeExpand.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.beforeMouseDown.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.beforeMouseUp.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.beforeRemove.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.beforeRename.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.beforeRightClick.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.onAsyncError.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.onAsyncSuccess.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.onCheck.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.onClick.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.onCollapse.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.onDblClick.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.onDrag.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.onDragMove.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.onDrop.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.onExpand.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.onMouseDown.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.onMouseUp.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.onNodeCreated.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.onRemove.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.onRename.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.callback.onRightClick.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.check.autoCheckTrigger.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.check.chkDisabledInherit.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.check.chkStyle.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.check.chkboxType.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.check.enable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.check.nocheckInherit.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.check.radioType.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.data.keep.leaf.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.data.keep.parent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.data.key.checked.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.data.key.children.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.data.key.name.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.data.key.title.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.data.key.url.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.data.simpleData.enable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.data.simpleData.idKey.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.data.simpleData.pIdKey.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.data.simpleData.rootPId.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.drag.autoExpandTrigger.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.drag.autoOpenTime.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.drag.borderMax.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.drag.borderMin.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.drag.inner.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.drag.isCopy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.drag.isMove.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.drag.maxShowNodeNum.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.drag.minMoveSize.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.drag.next.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.drag.prev.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.editNameSelectAll.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.enable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.removeTitle.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.renameTitle.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.showRemoveBtn.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.edit.showRenameBtn.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.treeId.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.treeObj.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.view.addDiyDom.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.view.addHoverDom.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.view.autoCancelSelected.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.view.dblClickExpand.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.view.expandSpeed.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.view.fontCss.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.view.nameIsHTML.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.view.removeHoverDom.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.view.selectedMulti.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.view.showIcon.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.view.showLine.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.view.showTitle.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/setting.view.txtSelectedEnable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.check_Child_State.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.check_Focus.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.checked.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.checkedOld.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.children.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.chkDisabled.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.click.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.diy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.editNameFlag.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.getCheckStatus.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.getIndex.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.getNextNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.getParentNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.getPath.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.getPreNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.halfCheck.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.icon.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.iconClose.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.iconOpen.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.iconSkin.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.isAjaxing.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.isFirstNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.isHidden.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.isHover.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.isLastNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.isParent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.level.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.name.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.nocheck.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.open.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.parentTId.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.tId.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.target.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.url.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/treeNode.zAsync.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.addNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.cancelEditName.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.cancelSelectedNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.checkAllNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.checkNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.copyNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.destroy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.editName.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.expandAll.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.expandNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.getChangeCheckedNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.getCheckedNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.getNodeByParam.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.getNodeByTId.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.getNodeIndex.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.getNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.getNodesByFilter.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.getNodesByParam.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.getNodesByParamFuzzy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.getSelectedNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.hideNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.hideNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.moveNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.reAsyncChildNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.refresh.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.removeChildNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.removeNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.selectNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.setChkDisabled.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.setEditable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.setting.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.showNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.showNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.transformToArray.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.transformTozTreeNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/cn/zTreeObj.updateNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/fn.zTree._z.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/fn.zTree.destroy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/fn.zTree.getZTreeObj.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/fn.zTree.init.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.async.autoParam.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.async.contentType.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.async.dataFilter.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.async.dataType.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.async.enable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.async.otherParam.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.async.type.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.async.url.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.beforeAsync.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.beforeCheck.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.beforeClick.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.beforeCollapse.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.beforeDblClick.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.beforeDrag.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.beforeDragOpen.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.beforeDrop.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.beforeEditName.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.beforeExpand.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.beforeMouseDown.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.beforeMouseUp.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.beforeRemove.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.beforeRename.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.beforeRightClick.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.onAsyncError.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.onAsyncSuccess.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.onCheck.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.onClick.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.onCollapse.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.onDblClick.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.onDrag.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.onDragMove.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.onDrop.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.onExpand.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.onMouseDown.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.onMouseUp.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.onNodeCreated.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.onRemove.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.onRename.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.callback.onRightClick.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.check.autoCheckTrigger.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.check.chkDisabledInherit.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.check.chkStyle.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.check.chkboxType.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.check.enable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.check.nocheckInherit.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.check.radioType.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.data.keep.leaf.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.data.keep.parent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.data.key.checked.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.data.key.children.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.data.key.name.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.data.key.title.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.data.key.url.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.data.simpleData.enable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.data.simpleData.idKey.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.data.simpleData.pIdKey.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.data.simpleData.rootPId.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.drag.autoExpandTrigger.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.drag.autoOpenTime.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.drag.borderMax.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.drag.borderMin.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.drag.inner.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.drag.isCopy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.drag.isMove.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.drag.maxShowNodeNum.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.drag.minMoveSize.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.drag.next.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.drag.prev.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.editNameSelectAll.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.enable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.removeTitle.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.renameTitle.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.showRemoveBtn.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.edit.showRenameBtn.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.treeId.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.treeObj.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.view.addDiyDom.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.view.addHoverDom.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.view.autoCancelSelected.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.view.dblClickExpand.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.view.expandSpeed.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.view.fontCss.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.view.nameIsHTML.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.view.removeHoverDom.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.view.selectedMulti.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.view.showIcon.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.view.showLine.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.view.showTitle.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/setting.view.txtSelectedEnable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.check_Child_State.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.check_Focus.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.checked.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.checkedOld.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.children.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.chkDisabled.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.click.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.diy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.editNameFlag.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.getCheckStatus.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.getIndex.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.getNextNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.getParentNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.getPath.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.getPreNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.halfCheck.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.icon.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.iconClose.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.iconOpen.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.iconSkin.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.isAjaxing.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.isFirstNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.isHidden.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.isHover.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.isLastNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.isParent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.level.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.name.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.nocheck.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.open.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.parentTId.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.tId.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.target.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.url.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/treeNode.zAsync.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.addNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.cancelEditName.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.cancelSelectedNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.checkAllNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.checkNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.copyNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.destroy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.editName.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.expandAll.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.expandNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.getChangeCheckedNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.getCheckedNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.getNodeByParam.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.getNodeByTId.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.getNodeIndex.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.getNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.getNodesByFilter.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.getNodesByParam.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.getNodesByParamFuzzy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.getSelectedNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.hideNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.hideNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.moveNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.reAsyncChildNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.refresh.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.removeChildNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.removeNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.selectNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.setChkDisabled.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.setEditable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.setting.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.showNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.showNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.transformToArray.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.transformTozTreeNodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/api/en/zTreeObj.updateNode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/awesomeStyle/awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/awesomeStyle/awesome.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/awesomeStyle/fa.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/awesomeStyle/img/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/demo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/metroStyle/img/line_conn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/metroStyle/img/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/metroStyle/img/metro.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/metroStyle/img/metro.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/metroStyle/metroStyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/zTreeStyle/img/diy/1_close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/zTreeStyle/img/diy/1_open.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/zTreeStyle/img/diy/2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/zTreeStyle/img/diy/3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/zTreeStyle/img/diy/4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/zTreeStyle/img/diy/5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/zTreeStyle/img/diy/6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/zTreeStyle/img/diy/7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/zTreeStyle/img/diy/8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/zTreeStyle/img/diy/9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/zTreeStyle/img/line_conn.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/zTreeStyle/img/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/zTreeStyle/img/zTreeStandard.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/zTreeStyle/img/zTreeStandard.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/css/zTreeStyle/zTreeStyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/js/jquery-1.4.4.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/js/jquery.ztree.all.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/js/jquery.ztree.all.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/js/jquery.ztree.core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/js/jquery.ztree.core.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/js/jquery.ztree.excheck.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/js/jquery.ztree.excheck.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/js/jquery.ztree.exedit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/js/jquery.ztree.exedit.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/js/jquery.ztree.exhide.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/js/jquery.ztree.exhide.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/js/ztree.3.5.26.zip" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/log v3.x.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/zTree3/zTree.v3.jquery.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/login/login.html" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/go-blog.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/controllers/common.go" afterPath="$PROJECT_DIR$/controllers/common.go" />
+      <change beforePath="$PROJECT_DIR$/controllers/default.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/routers/router.go" afterPath="$PROJECT_DIR$/routers/router.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,6 +1091,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="app.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/app.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="app.conf.example" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conf/app.conf.example">
           <provider selected="true" editor-type-id="text-editor">
@@ -39,8 +1114,8 @@
       <file leaf-file-name="common.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/common.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="264">
+              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding>
                 <element signature="e#30#63#0" expanded="true" />
               </folding>
@@ -48,11 +1123,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="login.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/login.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/login/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/Home.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="init.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/init.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="475">
+              <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
               <folding>
                 <element signature="e#16#122#0" expanded="true" />
               </folding>
@@ -60,54 +1165,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/app.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/default.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="router.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routers/router.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="192">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
-                <element signature="e#17#114#0" expanded="true" />
+                <element signature="e#17#78#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3720">
-              <caret line="87" column="62" lean-forward="false" selection-start-line="87" selection-start-column="62" selection-end-line="87" selection-end-column="62" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -130,11 +1195,17 @@
       <list>
         <option value="$PROJECT_DIR$/views/index.tpl" />
         <option value="$PROJECT_DIR$/controllers/default.go" />
-        <option value="$PROJECT_DIR$/routers/router.go" />
         <option value="$PROJECT_DIR$/conf/app.conf" />
-        <option value="$PROJECT_DIR$/controllers/common.go" />
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/models/init.go" />
+        <option value="$PROJECT_DIR$/controllers/admin.go" />
+        <option value="$PROJECT_DIR$/controllers/admin/admin.go" />
+        <option value="$PROJECT_DIR$/controllers/admin/Home.go" />
+        <option value="$PROJECT_DIR$/controllers/Home.go" />
+        <option value="$PROJECT_DIR$/views/login/login.html" />
+        <option value="$PROJECT_DIR$/controllers/common.go" />
+        <option value="$PROJECT_DIR$/routers/router.go" />
+        <option value="$PROJECT_DIR$/controllers/login.go" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -200,7 +1271,28 @@
             <path>
               <item name="go-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="Godeps" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="routers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,9 +1312,16 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="add_unversioned_files" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="GO_FMT" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Go\src\go-blog\controllers" />
+      <recent name="D:\Go\src\go-blog\controllers\admin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Go\src\go-blog\static" />
+      <recent name="D:\Go\src\go-blog\views\login" />
       <recent name="D:\Go\src\go-blog\conf" />
     </key>
   </component>
@@ -266,7 +1365,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25680086" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16757345" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -285,6 +1384,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="增加静态资源~~~~" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加静态资源~~~~" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -330,7 +1434,7 @@
         <state relative-caret-position="264">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <element signature="e#17#114#0" expanded="true" />
+            <element signature="e#17#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -374,7 +1478,7 @@
         <state relative-caret-position="120">
           <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding>
-            <element signature="e#17#114#0" expanded="true" />
+            <element signature="e#17#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -435,52 +1539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="e#17#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/default.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/app.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/common.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="e#30#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/init.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#16#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Godeps/Godeps.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-999">
@@ -507,10 +1565,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models/init.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding>
+            <element signature="e#16#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/default.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Home.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/common.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#30#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#17#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/static/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="168">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/login.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
